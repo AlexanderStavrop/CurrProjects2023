@@ -1,0 +1,56 @@
+\section*{Άσκηση 1}
+\label{ex1}
+\addcontentsline{toc}{section}{\nameref{ex1}}
+
+\subsection*{Ερώτημα 1}
+\label{ex1q1}
+\addcontentsline{toc}{subsection}{\nameref{ex1q1}}
+
+Δεδομένου του ότι η Alice έχει 50 φίλους και κάθε μέρα στέλνει ένα email το οποίο είναι μολυσμένο, η πιθανότητα να σταλεί σε ένα συγκεκριμένο φίλο της το mail είναι ίση με $\frac{1}{50}$. Η πιθανότητα αυτή είναι ίση για κάθε έναν από τους φίλους της και δεν επηρεάζεται από το αν στο παρελθόν ο εκάστοτε φίλος έχει λάβει μολυσμένο email.
+
+\noindent\\
+Η πιθανότητα να σταλεί email σε φίλο ο οποίος προηγουμένως δεν έχει μολυνθεί  αλλάζει με την πάροδο του χρόνου και γίνεται όλο και μικρότερη. Πιο συγκεκριμένα, την πρώτη φορά που στέλνεται ένα email, είναι σίγουρο πως θα σταλεί σε φίλο ο οποίος δεν έχει λάβει προηγουμένως, δηλαδή $p_i = 1$. Την δεύτερη φορά, για να μολυνθεί κάποιος νέος φίλος πρέπει να γίνει επιλογή μεταξύ των υπόλοιπων 49, το οποίο σημαίνει πως η πιθανότητα να μολυνθεί δεύτερο άτομο είναι ίση με $p_i = \frac{49}{50}$. Αντίστοιχα, για να μολυνθεί και τρίτο διαφορετικό άτομο η πιθανότητα είναι ίση με $p_i = \frac{48}{50}$ κ.ο.κ.
+
+\noindent\\
+Αναπτύσσοντας την παραπάνω σκέψη, η πιθανότητα για την μόλυνση του i-οστού νέου ατόμου προκύπτει ως εξής:
+\begin{equation}
+	p_i  = \frac{N - i}{N} \label{p_i_1}
+\end{equation}
+
+όπου Ν ο αριθμός των φίλων της Alice.
+
+
+\noindent\\\\
+Η αναμενόμενη τιμή για την μόλυνση του i-οστού ατόμου προκύπτει ως εξής:
+\begin{align}
+	E\left[i\right] = \frac{1}{p_i} = \frac{N}{N - i} \label{E_i_1}
+\end{align}
+Ελέγχοντας τις τιμές της αναμενόμενης τιμής παρατηρείται το εξής:
+\begin{align}
+	E\left[n\right] = E\left[n - 1\right] + \frac{1}{p_{n-1}} &\xRightarrow{}  E\left[n\right] = E\left[n - 2\right] + \frac{1}{p_{n-2}} + \frac{1}{p_{n-1}}  \notag \\
+																										& \hspace{3.3cm} \vdots \notag\\
+																										& \xRightarrow{} E\left[n\right] = \frac{1}{p_{0}}  + \frac{1}{p_{1}} + \cdots  + \frac{1}{p_{n-2}} + \frac{1}{p_{n-1}} \notag
+\end{align}
+ 
+και αντικαθιστώντας την σχέση (\ref{E_i_1}) η παραπάνω σχέση μπορεί να μετασχηματιστεί ως εξής:
+\begin{align}
+	E\left[n\right] = \frac{1}{p_{0}}  + \frac{1}{p_{1}} + \cdots  + \frac{1}{p_{n-2}} + \frac{1}{p_{n-1}}& \xRightarrow{} E\left[n\right] = \frac{N}{N - 0}  + \frac{N}{N - 1} + \cdots  + \frac{N}{N - (N-2)} + \frac{N}{N - (N-1)} \xRightarrow{}  \notag \\
+																										  & \xRightarrow{} E\left[n\right] =  N \cdot \left(\frac{1}{N - 0}  + \frac{1}{N - 1} + \cdots  + \frac{1}{N - (N-2)} + \frac{1}{N - (N-1)} \right) \xRightarrow{}  \notag \\
+																										  & \xRightarrow{} E\left[n\right] = N \cdot \left(\frac{1}{N}  + \frac{1}{N - 1} + \cdots  + \frac{1}{2} + 1 \right) \xRightarrow{}  \notag \\
+																										  & \xRightarrow{} E\left[n\right] = N \cdot \sum_{n = 0}^{N - 1} \frac{1}{n - 1}
+\end{align}
+
+\noindent\\
+Αντικαθιστώντας τον αριθμό των φίλων της Alice, δηλαδή Ν = 50 προκύπτει η εξής αναμενόμενη τιμή:
+\begin{equation*}
+	E\left[50\right] = 50 \cdot \sum_{n = 0}^{49}  \frac{1}{n - 1} = 224.96 \approx 225 \text{ μέρες}
+\end{equation*}
+
+δηλαδή απαιτούνται περίπου 225 ημέρες ώστε να μολυνθεί κάθε ένας από τους φίλους της Alice.
+
+\clearpage
+\subsection*{Ερώτημα 2}
+\label{ex1q2}
+\addcontentsline{toc}{subsection}{\nameref{ex1q2}}
+
+Σύμφωνα με την σχέση (\ref{p_i_1}), η πιθανότητα να μολυνθεί 

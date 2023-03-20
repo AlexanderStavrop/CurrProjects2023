@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+
+
+%  Overall look
+\usepackage[margin=0.8in]{geometry}  
+
+
+% Greek
+\usepackage{alphabeta}
+\usepackage[utf8]{inputenc}
+\usepackage[greek, english]{babel}
+
+
+% Figures
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+
+% Tables
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{booktabs}
+
+
+% Math
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{wasysym}
+\usepackage{steinmetz}
+\usepackage{cancel}
+\usepackage{bigints}
+\newcommand{\eqdoub}{\overset{\mathrm{}}{=\joinrel=}}
+\newcommand{\eqsix}{\overset{\mathrm{}}{=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel}}
+\newcommand{\eqeight}{\overset{\mathrm{}}{=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel=}}
+
+
+%code
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\lstset{language=Matlab,%
+	basicstyle=\small, %or \small or \footnotesize etc.
+	breaklines=true,%
+	frame=single,
+	mathescape,
+	morekeywords={matlab2tikz},
+	keywordstyle=\color{blue},%
+	morekeywords=[2]{1}, 
+	keywordstyle=[2]{\color{black}},
+	identifierstyle=\color{black},%
+	stringstyle=\color{mylilas},
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	emph=[1]{for,end,break,on,off},emphstyle=[1]\color{red}, %some words to emphasise
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=9pt, % this defines how far the numbers are from the text
+}
+
+
+% For drawing
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,calc,shapes,backgrounds}
+\usetikzlibrary{positioning} 	% For left right etc
+\tikzset{
+	treenode/.style = {align=center, inner sep=0pt, text centered,
+		font=\sffamily},
+	arn/.style = {treenode, circle, black, font=\sffamily\bfseries, draw=black,
+		fill=white, text width=4.1ex},
+	arnrec/.style = {treenode, rectangle, black, font=\sffamily\bfseries, draw=black,
+		fill=white, text width=7.5ex,minimum width=4.0ex, minimum height=4.0ex},
+	arnsmall/.style = {treenode, circle, black, font=\sffamily\bfseries, draw=black,
+		fill=white, text width=1.5ex},
+}
+\usepackage{xcolor}
+\definecolor{purple}{HTML}{9B26B6}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{matrix,positioning}
+
+% Table of contents
+% Clickable
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+% Dots
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+
+%First page
+\newcommand{\subject}{Large and Social Networks}
+\newcommand{\descript}{1o Σετ Ασκήσεων}
+\newcommand{\names}{Σταυρόπουλος Αλέξανδρος Ανδρέας\\ 2019030109}
+\newcommand{\lecturer}{Θρασύβουλος Σπυρόπουλος}
+\newcommand{\lablecturer}{-}
+\newcommand{\term}{Χειμερινό εξάμηνο 2022-2023}
+
+
+% Line above page numbering
+\usepackage{titleps}%
+\newpagestyle{ruled}{%
+	\footrule
+	\setfoot{}{\thepage}{}}
+\pagestyle{ruled}
+
+
+
+% Begin Code
+\begin{document}
+	\include{Titlepage/title}
+	\newpage
+	% Remaning and Centering ToC
+	\begin{center}
+		\renewcommand{\contentsname}{\centering \text{Πίνακας Περιεχομένων}}
+		\tableofcontents
+	\end{center}
+	\newpage
+	\include{Chapters/chapter1}
+	\include{Chapters/chapter2}
+	\include{Chapters/chapter3}
+	\include{Chapters/chapter4}
+\end{document}
