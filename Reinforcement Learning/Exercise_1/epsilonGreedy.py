@@ -33,7 +33,7 @@ class epsilonGreedy:
 
     # Function for updating the epsilon value
     def update_epsilon(self, curr_round):
-        self.epsilon = 5**(-1/3) * (np.log(1 + curr_round))**(1/3)
+        self.epsilon = (1 + curr_round)**(-1/3) * (np.log(1 + curr_round))**(1/3)
 
 
     # Function for choosing between exploration and exploitation
@@ -49,7 +49,7 @@ class epsilonGreedy:
     # Function for updating the measurements
     def update_measurements(self, arm):
         self.bandits[arm]['Q'] += 1
-        self.bandits[arm]['score'] += self.bandits[arm].get('reward')
+        self.bandits[arm]['score'] += self.bandits[arm].get('reward') * np.random.binomial(1,p=self.bandits[arm].get('prob'))
 
 
     # Function for updating the mu value
@@ -80,7 +80,6 @@ class epsilonGreedy:
 
 
 if __name__ == '__main__':
-    N = 20
     K = 10
     T = 1000
     
