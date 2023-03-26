@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1288,7 +1288,7 @@ LaTeX Info: Redefining \nameref on input line 117.
 \openout2 = `Titlepage/title.aux'.
 
  (./Titlepage/title.tex
-<Images/university.png, id=67, 67.452pt x 108.1641pt>
+<Images/university.png, id=55, 67.452pt x 108.1641pt>
 File: Images/university.png Graphic file (type png)
 <use Images/university.png>
 Package pdftex.def Info: Images/university.png  used on input line 25.
@@ -1324,61 +1324,19 @@ l.125 	\newpage
 \openout2 = `Chapters/chapter1.aux'.
 
  (./Chapters/chapter1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+<Images/regret_1000_UCB.png, id=100, 462.528pt x 346.896pt>
+File: Images/regret_1000_UCB.png Graphic file (type png)
+<use Images/regret_1000_UCB.png>
+Package pdftex.def Info: Images/regret_1000_UCB.png  used on input line 48.
+(pdftex.def)             Requested size: 216.81082pt x 162.60709pt.
+<Images/regret_1000_epsilon.png, id=101, 462.528pt x 346.896pt>
+File: Images/regret_1000_epsilon.png Graphic file (type png)
+<use Images/regret_1000_epsilon.png>
+Package pdftex.def Info: Images/regret_1000_epsilon.png  used on input line 54.
+(pdftex.def)             Requested size: 216.81082pt x 162.60709pt.
+ [2
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-[2
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-[3
-
-]
-
-LaTeX Warning: Command \ensuregreek invalid in math mode on input line 119.
-
-
-LaTeX Warning: Command \greekscript invalid in math mode on input line 119.
-
-
-LaTeX Warning: Command \acctonos invalid in math mode on input line 119.
-
-Missing character: There is no   in font cmr10!
-) [4
+] [3 <./Images/regret_1000_UCB.png> <./Images/regret_1000_epsilon.png>]) [4
 
 ]
 \openout2 = `Chapters/chapter2.aux'.
@@ -1435,21 +1393,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
 ] (./main_file.aux (./Titlepage/title.aux) (./Chapters/chapter1.aux) (./Chapters/chapter2.aux) (./Chapters/chapter3.aux) (./Chapters/chapter4.aux))
 Package rerunfilecheck Info: File `main_file.out' has not changed.
-(rerunfilecheck)             Checksum: 23109C351F4DCE9D236461871B73E767;1853.
+(rerunfilecheck)             Checksum: EA3F80BC453D1313600D04FFC1B8CD72;1438.
  ) 
 Here is how much of TeX's memory you used:
- 31413 strings out of 478238
- 603890 string characters out of 5850457
- 903072 words of memory out of 5000000
- 49023 multiletter control sequences out of 15000+600000
- 481560 words of font info for 63 fonts, out of 8000000 for 9000
+ 31411 strings out of 478238
+ 604192 string characters out of 5850457
+ 899813 words of memory out of 5000000
+ 49026 multiletter control sequences out of 15000+600000
+ 480519 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,89p,1183b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb>
-Output written on main_file.pdf (9 pages, 303664 bytes).
+ 84i,13n,89p,1606b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main_file.pdf (9 pages, 361643 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
