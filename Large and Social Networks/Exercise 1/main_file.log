@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 07:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1129,7 +1129,7 @@ Package: titleps 2021/07/05 v2.14 Page styles
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box136
-) (./main_file.aux (./Titlepage/title.aux) (./Chapters/chapter1.aux) (./Chapters/chapter2.aux) (./Chapters/chapter3.aux) (./Chapters/chapter4.aux))
+) (./main_file.aux)
 \openout1 = `main_file.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
@@ -1281,14 +1281,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 117.
 LaTeX Info: Redefining \pageref on input line 117.
 LaTeX Info: Redefining \nameref on input line 117.
- (./main_file.out) (./main_file.out)
 \@outlinefile=\write4
 \openout4 = `main_file.out'.
 
 \openout2 = `Titlepage/title.aux'.
 
  (./Titlepage/title.tex
-<Images/university.png, id=67, 67.452pt x 108.1641pt>
+<Images/university.png, id=7, 67.452pt x 108.1641pt>
 File: Images/university.png Graphic file (type png)
 <use Images/university.png>
 Package pdftex.def Info: Images/university.png  used on input line 25.
@@ -1296,19 +1295,7 @@ Package pdftex.def Info: Images/university.png  used on input line 25.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/university.png>]) (./main_file.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 2.
- (/usr/share/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/university.png>])
 \tf@toc=\write5
 \openout5 = `main_file.toc'.
 
@@ -1324,9 +1311,24 @@ l.125 	\newpage
 \openout2 = `Chapters/chapter1.aux'.
 
  (./Chapters/chapter1.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 9.
+ (/usr/share/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
+
+
+LaTeX Warning: Reference `E_i_1' on page 2 undefined on input line 35.
 
 
 Overfull \hbox (8.64104pt too wide) detected at line 41
@@ -1337,6 +1339,9 @@ Overfull \hbox (8.64104pt too wide) detected at line 41
 
 ]
 
+LaTeX Warning: Reference `P_90_bar' on page 3 undefined on input line 67.
+
+
 LaTeX Warning: Command \ensuregreek invalid in math mode on input line 69.
 
 
@@ -1344,6 +1349,38 @@ LaTeX Warning: Command \greekscript invalid in math mode on input line 69.
 
 
 LaTeX Warning: Command \acctonos invalid in math mode on input line 69.
+
+./Chapters/chapter1.tex:70: You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.70 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./Chapters/chapter1.tex:70: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.70 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Chapters/chapter1.tex:70: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.70 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 Missing character: There is no   in font cmr10!
 ) [3
@@ -1372,6 +1409,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
  []
 
 
+LaTeX Warning: Reference `DTMC' on page 4 undefined on input line 56.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
@@ -1385,7 +1425,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
 
 
-]) [5
+]
+
+LaTeX Warning: Reference `pbw' on page 5 undefined on input line 79.
+
+
+LaTeX Warning: Reference `psw' on page 5 undefined on input line 79.
+
+
+LaTeX Warning: Reference `pbw' on page 5 undefined on input line 87.
+
+
+LaTeX Warning: Reference `psw' on page 5 undefined on input line 87.
+
+
+LaTeX Warning: Reference `pbw' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `pbw' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `psw' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `psw' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `pbw' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `pbw' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `psw' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `PW' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `psw' on page 5 undefined on input line 91.
+
+) [5
 
 ]
 \openout2 = `Chapters/chapter3.aux'.
@@ -1402,22 +1503,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
 
 ] (./main_file.aux (./Titlepage/title.aux) (./Chapters/chapter1.aux) (./Chapters/chapter2.aux) (./Chapters/chapter3.aux) (./Chapters/chapter4.aux))
-Package rerunfilecheck Info: File `main_file.out' has not changed.
-(rerunfilecheck)             Checksum: CF32DE7BAB715869BB768C5811210ABC;1790.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main_file.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main_file.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  0D5601C1A40268B9CF904A5BB3E10BFF;937.
  ) 
 Here is how much of TeX's memory you used:
- 31408 strings out of 478238
- 603820 string characters out of 5850457
- 903097 words of memory out of 5000000
- 49023 multiletter control sequences out of 15000+600000
- 481560 words of font info for 63 fonts, out of 8000000 for 9000
+ 31375 strings out of 478238
+ 603271 string characters out of 5850457
+ 899622 words of memory out of 5000000
+ 49004 multiletter control sequences out of 15000+600000
+ 482181 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,89p,1179b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb>
-Output written on main_file.pdf (8 pages, 290003 bytes).
+ 84i,16n,89p,1179b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb>
+Output written on main_file.pdf (8 pages, 295562 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
+ 173 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  38 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
