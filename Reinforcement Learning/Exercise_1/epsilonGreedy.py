@@ -99,9 +99,7 @@ class EpsilonGreedy:
         # Assigning the number of bandits and the rounds to the class
         self.K = numOfBandits
         self.T = rounds
-        # self.bandits = bandits
         self.best_bandit = best_bandit
-        print(self.best_bandit['arm_score'])
 
 
         # Creating two dictionaries containing the needed values for measuring the performance of the algorithm

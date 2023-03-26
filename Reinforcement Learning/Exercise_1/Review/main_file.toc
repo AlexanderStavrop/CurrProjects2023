@@ -1,0 +1,16 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\nameref {ex1}}{3}{equation.0.2}%
+\contentsline {subsection}{\nameref {ex1q1}}{3}{section*.4}%
+\contentsline {subsection}{\nameref {ex1q2}}{4}{section*.5}%
+\contentsline {section}{\nameref {ex2}}{5}{section*.6}%
+\contentsline {subsection}{\nameref {ex2q1}}{5}{section*.7}%
+\contentsline {subsection}{\nameref {ex2q2}}{5}{section*.9}%
+\contentsline {subsection}{\nameref {ex2q3}}{6}{section*.10}%
+\contentsline {subsection}{\nameref {ex2q4}}{6}{section*.11}%
+\contentsline {subsection}{\nameref {ex2q5}}{6}{section*.12}%
+\contentsline {section}{\nameref {ex3}}{7}{section*.13}%
+\contentsline {subsection}{\nameref {ex3q1}}{7}{section*.14}%
+\contentsline {subsection}{\nameref {ex3q2}}{7}{section*.15}%
+\contentsline {section}{\nameref {ex4}}{8}{section*.16}%
+\contentsline {subsection}{\nameref {ex4q1}}{8}{section*.17}%
+\contentsline {subsection}{\nameref {ex4q2}}{8}{section*.18}%
