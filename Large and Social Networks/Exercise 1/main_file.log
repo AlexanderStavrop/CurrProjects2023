@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  22 MAR 2023 02:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 07:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1335,7 +1335,18 @@ Overfull \hbox (8.64104pt too wide) detected at line 41
 
 [2
 
-]) [3
+]
+
+LaTeX Warning: Command \ensuregreek invalid in math mode on input line 69.
+
+
+LaTeX Warning: Command \greekscript invalid in math mode on input line 69.
+
+
+LaTeX Warning: Command \acctonos invalid in math mode on input line 69.
+
+Missing character: There is no   in font cmr10!
+) [3
 
 ]
 \openout2 = `Chapters/chapter2.aux'.
@@ -1374,60 +1385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
 
 
-]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 111.
- (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-
-Package xcolor Warning: Incompatible color definition on input line 111.
-
-) [5
+]) [5
 
 ]
 \openout2 = `Chapters/chapter3.aux'.
@@ -1448,18 +1406,18 @@ Package rerunfilecheck Info: File `main_file.out' has not changed.
 (rerunfilecheck)             Checksum: CF32DE7BAB715869BB768C5811210ABC;1790.
  ) 
 Here is how much of TeX's memory you used:
- 31847 strings out of 478238
- 607650 string characters out of 5850457
- 940968 words of memory out of 5000000
- 49460 multiletter control sequences out of 15000+600000
+ 31408 strings out of 478238
+ 603820 string characters out of 5850457
+ 903097 words of memory out of 5000000
+ 49023 multiletter control sequences out of 15000+600000
  481560 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,89p,1179b,1482s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb>
-Output written on main_file.pdf (8 pages, 281605 bytes).
+ 84i,13n,89p,1179b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb>
+Output written on main_file.pdf (8 pages, 290003 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1231,10 +1231,6 @@ INPUT ./Chapters/chapter2.tex
 INPUT Chapters/chapter2.tex
 INPUT ./Chapters/chapter2.tex
 INPUT Chapters/chapter2.tex
-INPUT /usr/share/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texmf-dist/tex/latex/base/omscmr.fd
 INPUT ./Chapters/chapter3.tex
 INPUT ./Chapters/chapter3.tex
 INPUT ./Chapters/chapter3.tex
@@ -1280,6 +1276,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
