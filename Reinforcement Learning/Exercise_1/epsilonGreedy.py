@@ -69,7 +69,7 @@ class Tester:
     
 
     # Function for creating a vector containing the cumulative 
-    def calculate_cum_regret(self, epsilon_regret, usb_regret):
+    def calculate_cumul_regret(self, epsilon_regret, usb_regret):
         cum_epsilon = [0 for _ in range(T)]
         cum_ucb = [0 for _ in range(T)]
 
@@ -81,17 +81,23 @@ class Tester:
     
 
     # Function for plotting the regret and the cumulative regret of the algorithms
-    def plot_regret(self, epsilon_regret, label_epsilon, ucb_regret, label_ucb):
+    def plot_regret(self, epsilon_regret, label_epsilon, ucb_regret, label_ucb, type):
         # Creating a vector for representing the rounds
         round_vector = np.arange(1, self.T+1)
-        cum_epsilon, cum_ucb = self.calculate_cum_regret(epsilon_regret, ucb_regret)
         
-        EpsilonGreedy_complexity = (round_vector + 1)**(-1/3) * (self.K * np.log10(1 + round_vector))**(1/3)
+        # Calculating the cumulative regret for each both algorithms
+        cum_epsilon, cum_ucb = self.calculate_cumul_regret(epsilon_regret, ucb_regret)
+        
+        # Theoretical complexity of the algorithms
+        epsilon_complexity = (round_vector + 1)**(2/3) * (self.K * np.log10(1 + round_vector))**(1/3)
         ucb_complexity = np.sqrt(self.K * self.T * np.log10(T))
+
 
         # Plotting the regret for the epsilonGreedy algorithm
         plt.figure(figsize=(10,5))
-        plt.subplot(1, 2, 1)
+        # Checking if we want to also plot the cumulative regret
+        if type == 1:
+            plt.subplot(1, 2, 1)
         plt.plot(round_vector, epsilon_regret, label=label_epsilon)
         plt.plot(round_vector, ucb_regret, label=label_ucb)
 
@@ -100,16 +106,17 @@ class Tester:
         plt.ylabel('Regret')
         plt.legend()
     
+        if type == 1:
+            # Plotting the cumulative regret
+            plt.subplot(1, 2, 2)
+            plt.plot(round_vector, epsilon_complexity,label=r'O(t^{2/3} \cdot \left( k \cdot \log(t) \right)^{1/3}')
+            plt.plot(round_vector, cum_epsilon,label='Cumulative regret of ε-Greedy')
+            # plt.plot(round_vector, )
+            plt.plot(round_vector, cum_ucb,label='Cumulative regret of ucb')
+            plt.legend()
 
-        # Plotting the cumulative regret
-        plt.subplot(1, 2, 2)
-        plt.plot(round_vector, EpsilonGreedy_complexity,label='O(t^2/3 * (k*log(t))^1/3)')
-        plt.plot(round_vector, cum_epsilon,label='Cumulative regret of ε-Greedy')
-        # plt.plot(round_vector, )
-        plt.plot(round_vector, cum_ucb,label='Cumulative regret of ucb')
-        plt.legend()
-
-        plt.savefig('Reinforcement Learning/Exercise_1/Review/Images/Regret' + str(self.K) + '_' + str(self.T) + '.eps', format='eps')
+        plt.savefig("kavli.png")
+        plt.savefig('Reinforcement Learning/Exercise_1/Review/Images/Regret' + str(self.K) + '_' + str(self.T) + '.eps', format='eps', dpi = 1000)
         print("done")
 
 #################################################### Epsilon Greedy ####################################################
@@ -272,10 +279,12 @@ class UCB:
 
 ###################################################################### Main #####################################################################
 if __name__ == '__main__':
-    K = 10
-    T = 10000
+   
 
-    ########################################################### Running the test once ###########################################################
+    ################################################### Running the test once (K = 10, T = 10000) ################################################
+    K = 10
+    T = 1000
+
     # Create bandits
     tester = Tester(K, T)
 
@@ -286,7 +295,36 @@ if __name__ == '__main__':
     ucb_regret = tester.run_UCB()
     
     # Plotting the results
-    tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB')
+    tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 1)
+
+    # ################################################## Running the test once (K = 10, T = 100000) ################################################
+    # K = 10
+    # T = 10000
+    
+    # # Create bandits
+    # tester = Tester(K, T)
+
+    # # Running the epsilon greedy algorithm
+    # epsilon_regret = tester.run_EpsilonGreedy()
+
+    # # Running the UCB algorithm
+    # ucb_regret = tester.run_UCB()
+    
+    # # Plotting the results
+    # tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     # epsilon_regrets = [0 for _ in range (tests)] 

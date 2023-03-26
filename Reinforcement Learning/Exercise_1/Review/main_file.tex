@@ -2,7 +2,7 @@
 
 
 %  Overall look
-\usepackage[margin=0.5in]{geometry}  
+\usepackage[margin=0.43in]{geometry}  
 
 
 % Greek
@@ -13,10 +13,10 @@
 
 % Figures
 \usepackage{graphicx}
-\usepackage{caption}
+\usepackage[font=small]{caption}
 \usepackage{subcaption}
 \usepackage{float}
-
+ 
 
 % Tables
 \usepackage{multirow}
@@ -117,14 +117,5 @@
 \begin{document}
 	\include{Titlepage/title}
 	\newpage
-	% Remaning and Centering ToC
-	\begin{center}
-		\renewcommand{\contentsname}{\centering \text{Πίνακας Περιεχομένων}}
-		\tableofcontents
-	\end{center}
-	\newpage
 	\include{Chapters/chapter1}
-	\include{Chapters/chapter2}
-	\include{Chapters/chapter3}
-	\include{Chapters/chapter4}
 \end{document}
