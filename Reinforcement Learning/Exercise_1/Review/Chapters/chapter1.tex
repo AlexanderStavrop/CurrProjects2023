@@ -36,63 +36,49 @@
 
 
 \subsubsection*{Σύγκριση επιδόσεων}
-\begin{minipage}{.7\textwidth}
-	Εξετάζοντας τα convergence rate κάθε αλγορίθμου αναμένεται η επίδοση του UCB να είναι καλύτερη σε σχέση με του ε-Greedy. Για την επαλήθευση αυτής της εκτίμησης, έγινε σύγκριση των επιδόσεων μεταξύ των δύο αλγορίθμων για το ίδιο σετ bandits σε κάθε τεστ. Αρχικά, για 10 bandits και ορίζοντα μεγέθους 1000, τα αποτελέσματα που εξάχθηκαν δεν συναδουν πάντα με την εκτίμηση. Συχνότερη περίπτωση αποτελεί, όπως ήταν αναμενόμενο, ο UCB να παρουσιαζει καλύτερο performance δηλαδή μικρότερο regret (fig:\ref{fig:UCB_1000}), ωστόσο, υπήρξαν σπάνιες περιπτώσεις όπου ο ε-Greedy παρουσίασε καλύτερη επίδοση (fig:\ref{fig:epsilon_1000}) κάτι το οποίο είναι πιθανό να συμβεί καθώς το σκορ κάθε αλγορίθμου υπολογίζεται ξεχωριστά οπότε για τυχαίους λόγους ο ένας αλγόριθμος να είναι πολύ πιο "τυχερός" από τον άλλο. \end{minipage}
-\begin{minipage}{.3\textwidth}
-asdfasfasdfads
-\end{minipage}
 
+Εξετάζοντας τα convergence rate κάθε αλγορίθμου αναμένεται η επίδοση του UCB να είναι καλύτερη σε σχέση με του ε-Greedy. Για την επαλήθευση αυτής της εκτίμησης, έγινε σύγκριση των επιδόσεων μεταξύ των δύο αλγορίθμων για το ίδιο σετ bandits σε κάθε τεστ. Αρχικά, για 10 bandits και ορίζοντα μεγέθους 1000, τα αποτελέσματα που εξάχθηκαν δεν συναδουν πάντα με την εκτίμηση. Συχνότερη περίπτωση αποτελεί, όπως ήταν αναμενόμενο, ο UCB να παρουσιαζει καλύτερο performance δηλαδή μικρότερο regret (fig:\ref{fig:UCB_1000}), ωστόσο, υπήρξαν σπάνιες περιπτώσεις όπου ο ε-Greedy παρουσίασε καλύτερη επίδοση (fig:\ref{fig:epsilon_1000}) κάτι το οποίο είναι πιθανό να συμβεί καθώς το σκορ κάθε αλγορίθμου υπολογίζεται ξεχωριστά οπότε για τυχαίους λόγους ο ένας αλγόριθμος να είναι πολύ πιο "τυχερός" από τον άλλο. 
+
+\clearpage
 \begin{figure}[h]
 	\centering
-	\begin{minipage}{.33\textwidth}
+	\begin{minipage}{.5\textwidth}
 	  \centering
-	  \includegraphics[width=\linewidth]{Images/regret_1000_UCB.png}
+	  \includegraphics[width=1.1\linewidth]{Images/Regret10_1000.eps}
 	  \captionof{figure}{Lower regret for UCB}
 	  \label{fig:UCB_1000}
 	\end{minipage}%
-	\begin{minipage}{.33\textwidth}
-	  \centering
-	  \includegraphics[width=\linewidth]{Images/regret_1000_epsilon.png}
-	  \captionof{figure}{Lower regret for ε-Greedy}
-	  \label{fig:epsilon_1000}
-	\end{minipage}
-	\begin{minipage}{.33\textwidth}
+	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{Images/regret_1000_100.png}
-		\captionof{figure}{Mean value of regret}
-		\label{fig:epsilon_1000_100}
-	  \end{minipage}
-	\end{figure}
+		\includegraphics[width=1.1\linewidth]{Images/Regret10_1000.eps}
+		\captionof{figure}{Lower regret for ε-Greedy}
+		\label{fig:epsilon_1000}
+	\end{minipage}
+\end{figure}
 
 \noindent
 Για την καλύτερη επιβεβαίωση των αποτελεσμάτων, αρχικά αυξήθηκε η τιμή ορίζοντα (Τ = 10000) ενώ ο αριθμός των bandit παρέμεινε σταθερός. Στην περίπτωση αυτή ο UCB πάντα παρουσιάζει καλύτερη επίδοση, δηλαδή μικρότερο regret, σε σχέση με τον ε-Greedy κάτι το οποίο επιβεβαιώνει την αρχική εκτίμηση 
 
 \begin{figure}[h]
 	\centering
-	\begin{minipage}{.33\textwidth}
-	  \centering
-	  \includegraphics[width=\linewidth]{Images/regret_1000_UCB.png}
-	  \captionof{figure}{Lower regret for UCB}
-	  \label{fig:UCB_10000}
-	\end{minipage}%
-	\begin{minipage}{.33\textwidth}
-	  \centering
-	  \includegraphics[width=\linewidth]{Images/regret_1000_epsilon.png}
-	  \captionof{figure}{Lower regret for ε-Greedy}
-	  \label{fig:epsilon_10000}
-	\end{minipage}
-	\begin{minipage}{.33\textwidth}
+	% \begin{minipage}{.5\textwidth}
+	%   \centering
+	%   \includegraphics[width=1.1\linewidth]{Images/Regret10_1000.eps}
+	%   \captionof{figure}{Lower regret for UCB}
+	%   \label{fig:UCB_10000}
+	% \end{minipage}%
+	% \begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{Images/regret_1000_100.png}
-		\captionof{figure}{Mean value of regret}
-		\label{fig:epsilon_10000_100}
-	  \end{minipage}
-	\end{figure}
+		\includegraphics[width=.6\linewidth]{Images/Regret10_10000.eps} 
+		\captionof{figure}{Lower regret for ε-Greedy}
+		\label{fig:epsilon_10000}
+	% \end{minipage}
+\end{figure}
 
 
+\noindent\\
+Παρατηρώντας τις γραφικές κάθε περίπτωσης πέραν την καλύτερης επίδοσης του UCB παρατηρείται πως και οι δύο αλγόριθμοι επιτυγχάνουν sublinear πολυπλοκότητα δεδομένου του οτι ο ρυθμός αύξησης του regret μειώνεται όσο αυξάνονται οι γύροι.
 \clearpage
-
-
 
 \begin{itemize}
 	\item πες οτι ο άλλος είναι πιο απλός και δεν βγάζει τόσο κακά αποτελέσματα

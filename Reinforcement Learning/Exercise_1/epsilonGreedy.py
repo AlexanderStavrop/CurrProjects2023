@@ -68,12 +68,30 @@ class Tester:
         return ucb.run_experiment()
     
 
-    # Function for plotting the regret of the algorithms
+    # Function for creating a vector containing the cumulative 
+    def calculate_cum_regret(self, epsilon_regret, usb_regret):
+        cum_epsilon = [0 for _ in range(T)]
+        cum_ucb = [0 for _ in range(T)]
+
+        for i in range(self.T):
+            cum_epsilon[i] = cum_epsilon[i-1] + epsilon_regret[i]
+            cum_ucb[i] = cum_ucb[i-1] + ucb_regret[i]
+            
+        return cum_epsilon, cum_ucb
+    
+
+    # Function for plotting the regret and the cumulative regret of the algorithms
     def plot_regret(self, epsilon_regret, label_epsilon, ucb_regret, label_ucb):
         # Creating a vector for representing the rounds
         round_vector = np.arange(1, self.T+1)
+        cum_epsilon, cum_ucb = self.calculate_cum_regret(epsilon_regret, ucb_regret)
+        
+        EpsilonGreedy_complexity = (round_vector + 1)**(-1/3) * (self.K * np.log10(1 + round_vector))**(1/3)
+        ucb_complexity = np.sqrt(self.K * self.T * np.log10(T))
 
         # Plotting the regret for the epsilonGreedy algorithm
+        plt.figure(figsize=(10,5))
+        plt.subplot(1, 2, 1)
         plt.plot(round_vector, epsilon_regret, label=label_epsilon)
         plt.plot(round_vector, ucb_regret, label=label_ucb)
 
@@ -81,13 +99,17 @@ class Tester:
         plt.xlabel('Rounds')
         plt.ylabel('Regret')
         plt.legend()
-        plt.savefig('regret_' + str(self.T) + '.png')
+    
 
-        # plt.plot(np.arange(1, rounds+1), ucb_regret, label=label2)
-        # plt.xlabel('Rounds')
-        # plt.ylabel('Regret')
-        # plt.legend()
-        # plt.savefig('regret' + str(rounds) + '.png')
+        # Plotting the cumulative regret
+        plt.subplot(1, 2, 2)
+        plt.plot(round_vector, EpsilonGreedy_complexity,label='O(t^2/3 * (k*log(t))^1/3)')
+        plt.plot(round_vector, cum_epsilon,label='Cumulative regret of ε-Greedy')
+        # plt.plot(round_vector, )
+        plt.plot(round_vector, cum_ucb,label='Cumulative regret of ucb')
+        plt.legend()
+
+        plt.savefig('Reinforcement Learning/Exercise_1/Review/Images/Regret' + str(self.K) + '_' + str(self.T) + '.eps', format='eps')
         print("done")
 
 #################################################### Epsilon Greedy ####################################################
@@ -251,9 +273,9 @@ class UCB:
 ###################################################################### Main #####################################################################
 if __name__ == '__main__':
     K = 10
-    T = 1000
-    tests = 100
+    T = 10000
 
+    ########################################################### Running the test once ###########################################################
     # Create bandits
     tester = Tester(K, T)
 
