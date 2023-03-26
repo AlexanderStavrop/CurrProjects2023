@@ -3,7 +3,7 @@
 
 \subsubsection*{ε-Greedy}
 Στον αλγόριθμο ε-Greedy στην περίπτωση exploration επιλέγεται τυχαίο χέρι ανεξάρτητα των επιδόσεών του έως τώρα ενώ στην περίπτωση exploitation επιλέγεται το χέρι με την καλύτερη επίδοση. Η επίδοση κάθε χεριού ορίζεται μέσω του συντελεστή $\mu$ ο οποίος είναι ίσος με τον πηλίκο μεταξύ του σκορ που έχει μαζέψει το εκάστοτε χέρι προς τον αριθμό των φορών που έχει επιλεχθεί. Το σκορ προκύπτει ως το γινόμενο μεταξύ reward και διωνυμικής πιθανότητας κάθε χεριού και υπολογίζεται σε κάθε γύρο ξεχωριστά. 
-
+ 
 \noindent\\
 Η επιλογή μεταξύ exploitation και exploitation γίνεται με χρήση της μεταβλητής $ epsilon = (t)^{-\frac{1}{3}} \cdot (k \cdot \log(t))^{\frac{1}{3}}$. Σε κάθε γύρο, με πιθανότητα epsilon γίνεται explore ενώ με πιθανότητα 1 - epsilon γίνεται exploit και λαμβάνοντας υπόψιν τον φθίνον ρυθμό της μεταβλητής epsilon, μπορεί εύκολα να αποδειχθεί πως όσο αυξάνονται οι γύροι τόσο πιο πιθανό είναι να γίνει exploitation χρησιμοποιώντας το καλύτερο χέρι ενώ ταυτόχρονα τόσο πιο απίθανο να επιλεγεί κάποιο τυχαίο (exploration). Η υλοποίηση παρουσιάζει convergence rate ίσο με $O\left( (t)^{\frac{2}{3}} \cdot (K \cdot \log(t))^{\frac{1}{3}} \right)$
 
@@ -22,13 +22,13 @@
 	\centering
 	\begin{minipage}{.5\textwidth}
 	  \centering
-	  \includegraphics[width=1\linewidth]{Images/Regret10_1000.eps}
+	  \includegraphics[width=1\linewidth]{Images/Regret10_1000_UCB.eps}
 	  \captionof{figure}{Lower regret for UCB (K=10 T=1000)}
 	  \label{fig:UCB_1000}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=1\linewidth]{Images/Regret10_1000.eps}
+		\includegraphics[width=1\linewidth]{Images/Regret10_1000_epsilon.eps}
 		\captionof{figure}{Lower regret for ε-Greedy (K=10 T=1000)}
 		\label{fig:epsilon_1000}
 	\end{minipage}
@@ -57,19 +57,18 @@
 Τέλος, έγινε μεταβολή του αριθμού των bandits και πιο συγκεκριμένα τέθηκαν ίσοι με 5 και 20, για ορίζοντα 1000 και 10000 αντίστοιχα. Όπως ήταν αναμενόμενο στις περιπτώσεις που μειώνεται ο αριθμός των bandits, το regret σταθεροποιείται σε μικρότερη τιμή, ενώ αντίθετα αυξάνοντας τον αριθμό των bandits, αυξάνεται η τιμή σταθεροποίησης.
 
 
-
 \begin{figure}[h]
 	\centering
 	\begin{minipage}{.4\textwidth}
 	  \centering
 	  \includegraphics[width=0.9\linewidth]{Images/Regret5_1000.eps}
-	  \captionof{figure}{Lower regret for UCB}
+	  \captionof{figure}{K = 5, T = 1000}
 	  \label{fig:UCB_13000}
 	\end{minipage}%
 	\begin{minipage}{.4\textwidth}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Images/Regret20_1000.eps}
-		\captionof{figure}{Lower regret for ε-Greedy}
+		\captionof{figure}{K = 20, T = 1000}
 		\label{fig:epsilon_10020}
 	\end{minipage}
 \end{figure}
@@ -79,13 +78,13 @@
 	\begin{minipage}{.4\textwidth}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Images/Regret5_10000.eps}
-		\captionof{figure}{Lower regret for ε-Greedy}
+		\captionof{figure}{K = 5, T = 10000}
 		\label{fig:epsilon_10001}
 	\end{minipage}
 	\begin{minipage}{.4\textwidth}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Images/Regret20_10000.eps}
-		\captionof{figure}{Lower regret for ε-Greedy}
+		\captionof{figure}{K = 20, T = 10000}
 		\label{fig:epsilon_15000}
 	\end{minipage}
 \end{figure}

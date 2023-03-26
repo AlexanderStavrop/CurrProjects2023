@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,36 +1312,33 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 5.
  (/usr/share/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Package epstopdf Info: Source file: <Images/Regret10_1000.eps>
-(epstopdf)                    date: 2023-03-26 21:07:27
-(epstopdf)                    size: 61316 bytes
-(epstopdf)             Output file: <Images/Regret10_1000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 18:44:40
-(epstopdf)                    size: 28807 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Regret10_1000-eps-converted-to.pdf Images/Regret10_1000.eps>
+Package epstopdf Info: Source file: <Images/Regret10_1000_UCB.eps>
+(epstopdf)                    date: 2023-03-26 21:31:32
+(epstopdf)                    size: 68498 bytes
+(epstopdf)             Output file: <Images/Regret10_1000_UCB-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-03-26 21:35:04
+(epstopdf)                    size: 34479 bytes
+(epstopdf)             Command: <repstopdf --outfile=Images/Regret10_1000_UCB-eps-converted-to.pdf Images/Regret10_1000_UCB.eps>
 (epstopdf)             \includegraphics on input line 25.
-runsystem(repstopdf --outfile=Images/Regret10_1000-eps-converted-to.pdf Images/Regret10_1000.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <Images/Regret10_1000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 21:07:28
-(epstopdf)                    size: 29900 bytes.
-<Images/Regret10_1000-eps-converted-to.pdf, id=24, 722.7pt x 361.35pt>
-File: Images/Regret10_1000-eps-converted-to.pdf Graphic file (type pdf)
-<use Images/Regret10_1000-eps-converted-to.pdf>
-Package pdftex.def Info: Images/Regret10_1000-eps-converted-to.pdf  used on input line 25.
+Package epstopdf Info: Output file is already uptodate.
+<Images/Regret10_1000_UCB-eps-converted-to.pdf, id=24, 722.7pt x 361.35pt>
+File: Images/Regret10_1000_UCB-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/Regret10_1000_UCB-eps-converted-to.pdf>
+Package pdftex.def Info: Images/Regret10_1000_UCB-eps-converted-to.pdf  used on input line 25.
 (pdftex.def)             Requested size: 276.07193pt x 138.03673pt.
-Package epstopdf Info: Source file: <Images/Regret10_1000.eps>
-(epstopdf)                    date: 2023-03-26 21:07:27
-(epstopdf)                    size: 61316 bytes
-(epstopdf)             Output file: <Images/Regret10_1000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 21:07:28
-(epstopdf)                    size: 29900 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Regret10_1000-eps-converted-to.pdf Images/Regret10_1000.eps>
+Package epstopdf Info: Source file: <Images/Regret10_1000_epsilon.eps>
+(epstopdf)                    date: 2023-03-26 21:31:58
+(epstopdf)                    size: 66842 bytes
+(epstopdf)             Output file: <Images/Regret10_1000_epsilon-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-03-26 21:35:04
+(epstopdf)                    size: 33882 bytes
+(epstopdf)             Command: <repstopdf --outfile=Images/Regret10_1000_epsilon-eps-converted-to.pdf Images/Regret10_1000_epsilon.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-File: Images/Regret10_1000-eps-converted-to.pdf Graphic file (type pdf)
-<use Images/Regret10_1000-eps-converted-to.pdf>
-Package pdftex.def Info: Images/Regret10_1000-eps-converted-to.pdf  used on input line 31.
+<Images/Regret10_1000_epsilon-eps-converted-to.pdf, id=25, 722.7pt x 361.35pt>
+File: Images/Regret10_1000_epsilon-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/Regret10_1000_epsilon-eps-converted-to.pdf>
+Package pdftex.def Info: Images/Regret10_1000_epsilon-eps-converted-to.pdf  used on input line 31.
 (pdftex.def)             Requested size: 276.07193pt x 138.03673pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1352,76 +1349,76 @@ l.36 \clearpage
 
 
 
- <./Images/Regret10_1000-eps-converted-to.pdf>]
+ <./Images/Regret10_1000_UCB-eps-converted-to.pdf> <./Images/Regret10_1000_epsilon-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/Regret10_10000.eps>
-(epstopdf)                    date: 2023-03-26 19:44:12
-(epstopdf)                    size: 88578 bytes
+(epstopdf)                    date: 2023-03-26 21:29:54
+(epstopdf)                    size: 116707 bytes
 (epstopdf)             Output file: <Images/Regret10_10000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 19:44:14
-(epstopdf)                    size: 37517 bytes
+(epstopdf)                    date: 2023-03-26 21:29:56
+(epstopdf)                    size: 47263 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/Regret10_10000-eps-converted-to.pdf Images/Regret10_10000.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Regret10_10000-eps-converted-to.pdf, id=100, 722.7pt x 361.35pt>
+<Images/Regret10_10000-eps-converted-to.pdf, id=187, 722.7pt x 361.35pt>
 File: Images/Regret10_10000-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/Regret10_10000-eps-converted-to.pdf>
 Package pdftex.def Info: Images/Regret10_10000-eps-converted-to.pdf  used on input line 47.
 (pdftex.def)             Requested size: 331.28969pt x 165.64407pt.
 Package epstopdf Info: Source file: <Images/Regret5_1000.eps>
-(epstopdf)                    date: 2023-03-26 20:11:51
-(epstopdf)                    size: 46523 bytes
+(epstopdf)                    date: 2023-03-26 21:26:52
+(epstopdf)                    size: 39458 bytes
 (epstopdf)             Output file: <Images/Regret5_1000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 20:34:55
-(epstopdf)                    size: 21593 bytes
+(epstopdf)                    date: 2023-03-26 21:27:13
+(epstopdf)                    size: 19475 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/Regret5_1000-eps-converted-to.pdf Images/Regret5_1000.eps>
-(epstopdf)             \includegraphics on input line 65.
+(epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Regret5_1000-eps-converted-to.pdf, id=101, 722.7pt x 361.35pt>
+<Images/Regret5_1000-eps-converted-to.pdf, id=188, 722.7pt x 361.35pt>
 File: Images/Regret5_1000-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/Regret5_1000-eps-converted-to.pdf>
-Package pdftex.def Info: Images/Regret5_1000-eps-converted-to.pdf  used on input line 65.
+Package pdftex.def Info: Images/Regret5_1000-eps-converted-to.pdf  used on input line 64.
 (pdftex.def)             Requested size: 198.7674pt x 99.37982pt.
 Package epstopdf Info: Source file: <Images/Regret20_1000.eps>
-(epstopdf)                    date: 2023-03-26 20:11:55
-(epstopdf)                    size: 50727 bytes
+(epstopdf)                    date: 2023-03-26 21:26:53
+(epstopdf)                    size: 44871 bytes
 (epstopdf)             Output file: <Images/Regret20_1000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 20:11:56
-(epstopdf)                    size: 23040 bytes
+(epstopdf)                    date: 2023-03-26 21:27:13
+(epstopdf)                    size: 21271 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/Regret20_1000-eps-converted-to.pdf Images/Regret20_1000.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Regret20_1000-eps-converted-to.pdf, id=102, 722.7pt x 361.35pt>
+<Images/Regret20_1000-eps-converted-to.pdf, id=189, 722.7pt x 361.35pt>
 File: Images/Regret20_1000-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/Regret20_1000-eps-converted-to.pdf>
-Package pdftex.def Info: Images/Regret20_1000-eps-converted-to.pdf  used on input line 71.
+Package pdftex.def Info: Images/Regret20_1000-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 198.7674pt x 99.37982pt.
 Package epstopdf Info: Source file: <Images/Regret5_10000.eps>
-(epstopdf)                    date: 2023-03-26 20:11:49
-(epstopdf)                    size: 120249 bytes
+(epstopdf)                    date: 2023-03-26 21:26:53
+(epstopdf)                    size: 76650 bytes
 (epstopdf)             Output file: <Images/Regret5_10000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 20:35:05
-(epstopdf)                    size: 40793 bytes
+(epstopdf)                    date: 2023-03-26 21:27:21
+(epstopdf)                    size: 29358 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/Regret5_10000-eps-converted-to.pdf Images/Regret5_10000.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Regret5_10000-eps-converted-to.pdf, id=103, 722.7pt x 361.35pt>
+<Images/Regret5_10000-eps-converted-to.pdf, id=190, 722.7pt x 361.35pt>
 File: Images/Regret5_10000-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/Regret5_10000-eps-converted-to.pdf>
-Package pdftex.def Info: Images/Regret5_10000-eps-converted-to.pdf  used on input line 81.
+Package pdftex.def Info: Images/Regret5_10000-eps-converted-to.pdf  used on input line 80.
 (pdftex.def)             Requested size: 198.7674pt x 99.37982pt.
 Package epstopdf Info: Source file: <Images/Regret20_10000.eps>
-(epstopdf)                    date: 2023-03-26 20:11:58
-(epstopdf)                    size: 91511 bytes
+(epstopdf)                    date: 2023-03-26 21:26:53
+(epstopdf)                    size: 92443 bytes
 (epstopdf)             Output file: <Images/Regret20_10000-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-26 20:11:59
-(epstopdf)                    size: 34456 bytes
+(epstopdf)                    date: 2023-03-26 21:27:21
+(epstopdf)                    size: 33755 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/Regret20_10000-eps-converted-to.pdf Images/Regret20_10000.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
-<Images/Regret20_10000-eps-converted-to.pdf, id=104, 722.7pt x 361.35pt>
+<Images/Regret20_10000-eps-converted-to.pdf, id=191, 722.7pt x 361.35pt>
 File: Images/Regret20_10000-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/Regret20_10000-eps-converted-to.pdf>
-Package pdftex.def Info: Images/Regret20_10000-eps-converted-to.pdf  used on input line 87.
+Package pdftex.def Info: Images/Regret20_10000-eps-converted-to.pdf  used on input line 86.
 (pdftex.def)             Requested size: 198.7674pt x 99.37982pt.
 ) [2
 
@@ -1430,18 +1427,18 @@ Package rerunfilecheck Info: File `main_file.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31152 strings out of 478238
- 598935 string characters out of 5850457
- 892131 words of memory out of 5000000
- 48814 multiletter control sequences out of 15000+600000
+ 31159 strings out of 478238
+ 599303 string characters out of 5850457
+ 892085 words of memory out of 5000000
+ 48820 multiletter control sequences out of 15000+600000
  478547 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,89p,1499b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb>
-Output written on main_file.pdf (3 pages, 425929 bytes).
+Output written on main_file.pdf (3 pages, 446140 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 473 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  11 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
