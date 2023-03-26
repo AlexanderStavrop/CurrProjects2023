@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.8)  26 MAR 2023 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,15 +1165,15 @@ LaTeX Font Info:    ... okay on input line 117.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* h-part:(L,W,R)=(32.52127pt, 549.25246pt, 32.52127pt)
+* v-part:(T,H,B)=(32.52127pt, 729.92744pt, 32.52127pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=542.02501pt
-* \textheight=722.7pt
-* \oddsidemargin=-36.135pt
-* \evensidemargin=-36.135pt
-* \topmargin=-73.135pt
+* \textwidth=549.25246pt
+* \textheight=729.92744pt
+* \oddsidemargin=-39.74872pt
+* \evensidemargin=-39.74872pt
+* \topmargin=-76.74872pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1292,7 +1292,7 @@ LaTeX Info: Redefining \nameref on input line 117.
 File: Images/university.png Graphic file (type png)
 <use Images/university.png>
 Package pdftex.def Info: Images/university.png  used on input line 25.
-(pdftex.def)             Requested size: 162.60915pt x 260.81053pt.
+(pdftex.def)             Requested size: 164.7774pt x 264.28802pt.
  [1
 
 
@@ -1324,19 +1324,44 @@ l.125 	\newpage
 \openout2 = `Chapters/chapter1.aux'.
 
  (./Chapters/chapter1.tex
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 39--44
+$[]$ $[]$ 
+ []
+
 <Images/regret_1000_UCB.png, id=100, 462.528pt x 346.896pt>
 File: Images/regret_1000_UCB.png Graphic file (type png)
 <use Images/regret_1000_UCB.png>
-Package pdftex.def Info: Images/regret_1000_UCB.png  used on input line 48.
-(pdftex.def)             Requested size: 216.81082pt x 162.60709pt.
+Package pdftex.def Info: Images/regret_1000_UCB.png  used on input line 49.
+(pdftex.def)             Requested size: 181.2543pt x 135.93996pt.
 <Images/regret_1000_epsilon.png, id=101, 462.528pt x 346.896pt>
 File: Images/regret_1000_epsilon.png Graphic file (type png)
 <use Images/regret_1000_epsilon.png>
-Package pdftex.def Info: Images/regret_1000_epsilon.png  used on input line 54.
-(pdftex.def)             Requested size: 216.81082pt x 162.60709pt.
- [2
+Package pdftex.def Info: Images/regret_1000_epsilon.png  used on input line 55.
+(pdftex.def)             Requested size: 181.2543pt x 135.93996pt.
+<Images/regret_1000_100.png, id=102, 462.528pt x 346.896pt>
+File: Images/regret_1000_100.png Graphic file (type png)
+<use Images/regret_1000_100.png>
+Package pdftex.def Info: Images/regret_1000_100.png  used on input line 61.
+(pdftex.def)             Requested size: 181.2543pt x 135.93996pt.
 
-] [3 <./Images/regret_1000_UCB.png> <./Images/regret_1000_epsilon.png>]) [4
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2
+
+]
+File: Images/regret_1000_UCB.png Graphic file (type png)
+<use Images/regret_1000_UCB.png>
+Package pdftex.def Info: Images/regret_1000_UCB.png  used on input line 74.
+(pdftex.def)             Requested size: 181.2543pt x 135.93996pt.
+File: Images/regret_1000_epsilon.png Graphic file (type png)
+<use Images/regret_1000_epsilon.png>
+Package pdftex.def Info: Images/regret_1000_epsilon.png  used on input line 80.
+(pdftex.def)             Requested size: 181.2543pt x 135.93996pt.
+File: Images/regret_1000_100.png Graphic file (type png)
+<use Images/regret_1000_100.png>
+Package pdftex.def Info: Images/regret_1000_100.png  used on input line 86.
+(pdftex.def)             Requested size: 181.2543pt x 135.93996pt.
+ [3 <./Images/regret_1000_UCB.png> <./Images/regret_1000_epsilon.png> <./Images/regret_1000_100.png>]) [4
 
 ]
 \openout2 = `Chapters/chapter2.aux'.
@@ -1393,21 +1418,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
 ] (./main_file.aux (./Titlepage/title.aux) (./Chapters/chapter1.aux) (./Chapters/chapter2.aux) (./Chapters/chapter3.aux) (./Chapters/chapter4.aux))
 Package rerunfilecheck Info: File `main_file.out' has not changed.
-(rerunfilecheck)             Checksum: EA3F80BC453D1313600D04FFC1B8CD72;1438.
+(rerunfilecheck)             Checksum: B7DAC32ECBB0E2676C248DF6CB7BBFCC;1439.
  ) 
 Here is how much of TeX's memory you used:
- 31411 strings out of 478238
- 604192 string characters out of 5850457
- 899813 words of memory out of 5000000
- 49026 multiletter control sequences out of 15000+600000
+ 31422 strings out of 478238
+ 604482 string characters out of 5850457
+ 900093 words of memory out of 5000000
+ 49035 multiletter control sequences out of 15000+600000
  480519 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,89p,1606b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,13n,89p,1523b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main_file.pdf (9 pages, 361643 bytes).
+Output written on main_file.pdf (9 pages, 384160 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

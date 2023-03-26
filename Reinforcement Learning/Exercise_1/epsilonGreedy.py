@@ -12,7 +12,6 @@ class Tester:
         # Creating an array of individual dictionaries for each bandit
         self.bandits = np.array([{'prob': 0, 'reward': 0} for _ in range(self.K)])
         self.best_bandit = {'arm': 0,  "arm_score": 0, 'round_score': [0 for _ in range(self.T)]}
-        print(self.best_bandit['arm_score'])
 
         # Creating the bandits
         self.create_bandits()
@@ -253,15 +252,49 @@ class UCB:
 if __name__ == '__main__':
     K = 10
     T = 1000
+    tests = 100
 
     # Create bandits
     tester = Tester(K, T)
 
-    # Running the UCB algorithm
-    ucb_regret = tester.run_UCB()
-
     # Running the epsilon greedy algorithm
     epsilon_regret = tester.run_EpsilonGreedy()
 
+    # Running the UCB algorithm
+    ucb_regret = tester.run_UCB()
+    
     # Plotting the results
     tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB')
+
+
+    # epsilon_regrets = [0 for _ in range (tests)] 
+    # ucb_regrets = [0 for _ in range (tests)]
+
+    # for i in range(tests):
+    #     # Create bandits
+    #     tester = Tester(K, T)
+
+    #     # Running the epsilon greedy algorithm
+    #     epsilon_regrets[i] = tester.run_EpsilonGreedy()
+        
+    #     # Running the UCB algorithm
+    #     ucb_regrets[i] = tester.run_UCB()
+
+
+    # final_epsilon_regret = [0 for _ in range (T)] 
+    # final_ucb_regret = [0 for _ in range (T)] 
+
+    # for round in range(T):
+    #     print(round)
+    #     e_reg = 0
+    #     usb_reg = 0
+
+    #     for test in range(tests):
+    #         e_reg =+ epsilon_regrets[test][round]
+    #         ucb_reg =+ ucb_regrets[test][round]
+
+    #     final_epsilon_regret[round] = e_reg / tests
+    #     final_ucb_regret[round] = ucb_reg / tests
+         
+    # # Plotting the results
+    # tester.plot_regret(final_epsilon_regret, 'Epsilon Greedy', final_ucb_regret, 'UCB')
