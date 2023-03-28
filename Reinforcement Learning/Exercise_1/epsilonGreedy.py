@@ -117,7 +117,7 @@ class Tester:
             plt.legend()
 
         plt.savefig('kavli' + str(self.K) + '_' + str(self.T) + '.png')
-        # plt.savefig('Reinforcement Learning/Exercise_1/Review/Images/Regret' + str(self.K) + '_' + str(self.T) + '.eps', format='eps', dpi = 1000)
+        plt.savefig('Reinforcement Learning/Exercise_1/Review/Images/Regret' + str(self.K) + '_' + str(self.T) + '.eps', format='eps', dpi = 1000)
 
 #################################################### Epsilon Greedy ####################################################
 
@@ -298,85 +298,85 @@ if __name__ == '__main__':
     tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 1)
 
 
-    ################################################## Running the test once (K = 10, T = 10000) ################################################
-    K = 10
-    T = 10000
+    # ################################################## Running the test once (K = 10, T = 10000) ################################################
+    # K = 10
+    # T = 10000
     
-    # Create bandits
-    tester = Tester(K, T)
+    # # Create bandits
+    # tester = Tester(K, T)
 
-    # Running the epsilon greedy algorithm
-    epsilon_regret = tester.run_EpsilonGreedy()
+    # # Running the epsilon greedy algorithm
+    # epsilon_regret = tester.run_EpsilonGreedy()
 
-    # Running the UCB algorithm
-    ucb_regret = tester.run_UCB()
+    # # Running the UCB algorithm
+    # ucb_regret = tester.run_UCB()
     
-    # Plotting the results
-    tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 1)
+    # # Plotting the results
+    # tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 1)
 
 
-    ################################################### Running the test once (K = 5, T = 1000) ################################################
-    K = 5
-    T = 1000
+    # ################################################### Running the test once (K = 5, T = 1000) ################################################
+    # K = 5
+    # T = 1000
     
-    # Create bandits
-    tester = Tester(K, T)
+    # # Create bandits
+    # tester = Tester(K, T)
 
-    # Running the epsilon greedy algorithm
-    epsilon_regret = tester.run_EpsilonGreedy()
+    # # Running the epsilon greedy algorithm
+    # epsilon_regret = tester.run_EpsilonGreedy()
 
-    # Running the UCB algorithm
-    ucb_regret = tester.run_UCB()
+    # # Running the UCB algorithm
+    # ucb_regret = tester.run_UCB()
     
-    # Plotting the results
-    tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
+    # # Plotting the results
+    # tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
 
 
-    ################################################## Running the test once (K = 20, T = 1000) ################################################
-    K = 20
-    T = 1000
+    # ################################################## Running the test once (K = 20, T = 1000) ################################################
+    # K = 20
+    # T = 1000
     
-    # Create bandits
-    tester = Tester(K, T)
+    # # Create bandits
+    # tester = Tester(K, T)
 
-    # Running the epsilon greedy algorithm
-    epsilon_regret = tester.run_EpsilonGreedy()
+    # # Running the epsilon greedy algorithm
+    # epsilon_regret = tester.run_EpsilonGreedy()
 
-    # Running the UCB algorithm
-    ucb_regret = tester.run_UCB()
+    # # Running the UCB algorithm
+    # ucb_regret = tester.run_UCB()
     
-    # Plotting the results
-    tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
+    # # Plotting the results
+    # tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
 
 
-    ################################################### Running the test once (K = 5, T = 10000) ################################################
-    K = 5
-    T = 10000
+    # ################################################### Running the test once (K = 5, T = 10000) ################################################
+    # K = 5
+    # T = 10000
     
-    # Create bandits
-    tester = Tester(K, T)
+    # # Create bandits
+    # tester = Tester(K, T)
 
-    # Running the epsilon greedy algorithm
-    epsilon_regret = tester.run_EpsilonGreedy()
+    # # Running the epsilon greedy algorithm
+    # epsilon_regret = tester.run_EpsilonGreedy()
 
-    # Running the UCB algorithm
-    ucb_regret = tester.run_UCB()
+    # # Running the UCB algorithm
+    # ucb_regret = tester.run_UCB()
     
-    # Plotting the results
-    tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
+    # # Plotting the results
+    # tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
 
-    ################################################## Running the test once (K = 20, T = 10000) ################################################
-    K = 20
-    T = 10000
+    # ################################################## Running the test once (K = 20, T = 10000) ################################################
+    # K = 20
+    # T = 10000
     
-    # Create bandits
-    tester = Tester(K, T)
+    # # Create bandits
+    # tester = Tester(K, T)
 
-    # Running the epsilon greedy algorithm
-    epsilon_regret = tester.run_EpsilonGreedy()
+    # # Running the epsilon greedy algorithm
+    # epsilon_regret = tester.run_EpsilonGreedy()
 
-    # Running the UCB algorithm
-    ucb_regret = tester.run_UCB()
+    # # Running the UCB algorithm
+    # ucb_regret = tester.run_UCB()
     
-    # Plotting the results
-    tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
+    # # Plotting the results
+    # tester.plot_regret(epsilon_regret, 'Epsilon Greedy', ucb_regret, 'UCB', 0)
