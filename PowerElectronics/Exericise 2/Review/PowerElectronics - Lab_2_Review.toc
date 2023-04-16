@@ -1,0 +1,10 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Τριφασικός Ανορθωτής}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Γωνία έναυσης 0 μοίρες για L=0.04Η και L=0.08Η}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Τάση εξόδου}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Ρεύμα εξόδου}{2}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Ρεύμα Thyristor}{2}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Γωνία έναυσης 67 μοίρες για L=0.04Η και L=0.08Η}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Τάση εξόδου}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Ρεύμα εξόδου}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Ρεύμα Thyristor}{4}{subsubsection.1.2.3}%
