@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1681645154 "/home/alex/Documents/Vs code/PowerElectronics/Exericise 2/Review/PowerElectronics - Lab_2_Review.tex" "PowerElectronics - Lab_2_Review.pdf" "PowerElectronics - Lab_2_Review" 1681645157 0
+["pdflatex"] 1681645277 "/home/alex/Documents/Vs code/PowerElectronics/Exericise 2/Review/PowerElectronics - Lab_2_Review.tex" "PowerElectronics - Lab_2_Review.pdf" "PowerElectronics - Lab_2_Review" 1681645279 0
   "/home/alex/Documents/Vs code/PowerElectronics/Exericise 2/Review/PowerElectronics - Lab_2_Review.tex" 1681645152 3708 504afc979694c7eb95d4f2d7c99dde1a ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1680514707 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1680514707 1004 54797486969f23fa377b128694d548df ""
@@ -227,9 +227,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1680514707 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1680535004 4525820 6989b992dd1604748d4a6dbb38609568 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1680534973 8204068 0cb6ad59e9648788e831696227d00ced ""
-  "Chapters/chapter3.1.aux" 1681645156 3689 c8e29815feedda93a2b32e3f10ecbc45 "pdflatex"
-  "Chapters/chapter3.1.tex" 1681644464 6457 7f6358ad6a3a53b2654ebfbea3656815 ""
-  "Chapters/chapter3.2.aux" 1681645156 3231 c571071e4b424b770430e664ea9b4ea2 "pdflatex"
+  "Chapters/chapter3.1.aux" 1681645279 3689 c8e29815feedda93a2b32e3f10ecbc45 "pdflatex"
+  "Chapters/chapter3.1.tex" 1681645277 6402 dc879c37eca059ff4ef4392e5d35de97 ""
+  "Chapters/chapter3.2.aux" 1681645279 3231 c571071e4b424b770430e664ea9b4ea2 "pdflatex"
   "Chapters/chapter3.2.tex" 1681644728 4131 41608bc0778bf2f37881d0342f431b9d ""
   "Images/3_Iout_0_04.eps" 1681644506 262587 b286284eb4b518389323f35acffe22d6 ""
   "Images/3_Iout_0_08.eps" 1681644508 412282 03ecc31d83ba6a354d0c2fb7addef3ee ""
@@ -245,11 +245,11 @@
   "Images/3_Vout_67_08.eps" 1681644512 264391 4b06935b5b315c00e26ce787248969a5 ""
   "Images/3_phase.png" 1681563192 16788 3324e0436ddc04bad172cdcf894781f8 ""
   "Images/university.png" 1681552144 105131 9446098f5a91bf23d6b62d00761a36fd ""
-  "PowerElectronics - Lab_2_Review.aux" 1681645156 729 35ea013a58be2d940033ea3a99d46cfa "pdflatex"
-  "PowerElectronics - Lab_2_Review.out" 1681645156 1936 07c44a96fbf3e0497de521a269e1ac90 "pdflatex"
+  "PowerElectronics - Lab_2_Review.aux" 1681645279 729 35ea013a58be2d940033ea3a99d46cfa "pdflatex"
+  "PowerElectronics - Lab_2_Review.out" 1681645279 1936 07c44a96fbf3e0497de521a269e1ac90 "pdflatex"
   "PowerElectronics - Lab_2_Review.tex" 1681645152 3708 504afc979694c7eb95d4f2d7c99dde1a ""
-  "PowerElectronics - Lab_2_Review.toc" 1681645156 986 33d5aeeecc08dbdb5cdcdf2553ed8e99 "pdflatex"
-  "Titlepage/title.aux" 1681645156 856 cd93eb89b14839067a6e035701bf0d14 "pdflatex"
+  "PowerElectronics - Lab_2_Review.toc" 1681645279 986 33d5aeeecc08dbdb5cdcdf2553ed8e99 "pdflatex"
+  "Titlepage/title.aux" 1681645279 856 cd93eb89b14839067a6e035701bf0d14 "pdflatex"
   "Titlepage/title.tex" 1681552144 700 d8c323dfcdbec4e71c88b44797969921 ""
   (generated)
   "Chapters/chapter3.1.aux"

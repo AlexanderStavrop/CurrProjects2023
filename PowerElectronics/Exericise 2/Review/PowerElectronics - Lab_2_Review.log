@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.3)  16 APR 2023 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.3)  16 APR 2023 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1332,13 +1332,10 @@ l.127     \newpage
 \openout2 = `Chapters/chapter3.1.aux'.
 
  (./Chapters/chapter3.1.tex
-
-LaTeX Warning: Reference `3_phase' on page 1 undefined on input line 5.
-
-<Images/3_phase.png, id=71, 433.62pt x 242.40562pt>
+<Images/3_phase.png, id=72, 433.62pt x 242.40562pt>
 File: Images/3_phase.png Graphic file (type png)
 <use Images/3_phase.png>
-Package pdftex.def Info: Images/3_phase.png  used on input line 8.
+Package pdftex.def Info: Images/3_phase.png  used on input line 6.
 (pdftex.def)             Requested size: 263.78506pt x 147.47142pt.
 Package epstopdf Info: Source file: <Images/3_Vout_0_04.eps>
 (epstopdf)                    date: 2023-04-16 14:28:25
@@ -1347,12 +1344,12 @@ Package epstopdf Info: Source file: <Images/3_Vout_0_04.eps>
 (epstopdf)                    date: 2023-04-16 14:30:01
 (epstopdf)                    size: 95234 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Vout_0_04-eps-converted-to.pdf Images/3_Vout_0_04.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Vout_0_04-eps-converted-to.pdf, id=72, 559.08875pt x 351.3125pt>
+<Images/3_Vout_0_04-eps-converted-to.pdf, id=73, 559.08875pt x 351.3125pt>
 File: Images/3_Vout_0_04-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Vout_0_04-eps-converted-to.pdf>
-Package pdftex.def Info: Images/3_Vout_0_04-eps-converted-to.pdf  used on input line 31.
+Package pdftex.def Info: Images/3_Vout_0_04-eps-converted-to.pdf  used on input line 29.
 (pdftex.def)             Requested size: 237.40494pt x 149.1745pt.
 Package epstopdf Info: Source file: <Images/3_Vout_0_08.eps>
 (epstopdf)                    date: 2023-04-16 14:28:27
@@ -1361,18 +1358,19 @@ Package epstopdf Info: Source file: <Images/3_Vout_0_08.eps>
 (epstopdf)                    date: 2023-04-16 14:30:02
 (epstopdf)                    size: 95228 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Vout_0_08-eps-converted-to.pdf Images/3_Vout_0_08.eps>
-(epstopdf)             \includegraphics on input line 37.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Vout_0_08-eps-converted-to.pdf, id=73, 559.08875pt x 351.3125pt>
+<Images/3_Vout_0_08-eps-converted-to.pdf, id=74, 559.08875pt x 351.3125pt>
 File: Images/3_Vout_0_08-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Vout_0_08-eps-converted-to.pdf>
-Package pdftex.def Info: Images/3_Vout_0_08-eps-converted-to.pdf  used on input line 37.
+Package pdftex.def Info: Images/3_Vout_0_08-eps-converted-to.pdf  used on input line 35.
 (pdftex.def)             Requested size: 237.40494pt x 149.1745pt.
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 46.
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 44.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 46.
+LaTeX Warning: Reference `' on page 1 undefined on input line 44.
 
 Package epstopdf Info: Source file: <Images/3_Iout_0_04.eps>
 (epstopdf)                    date: 2023-04-16 14:28:26
@@ -1381,12 +1379,12 @@ Package epstopdf Info: Source file: <Images/3_Iout_0_04.eps>
 (epstopdf)                    date: 2023-04-16 14:30:02
 (epstopdf)                    size: 95234 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Iout_0_04-eps-converted-to.pdf Images/3_Iout_0_04.eps>
-(epstopdf)             \includegraphics on input line 55.
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Iout_0_04-eps-converted-to.pdf, id=74, 559.08875pt x 351.3125pt>
+<Images/3_Iout_0_04-eps-converted-to.pdf, id=75, 559.08875pt x 351.3125pt>
 File: Images/3_Iout_0_04-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Iout_0_04-eps-converted-to.pdf>
-Package pdftex.def Info: Images/3_Iout_0_04-eps-converted-to.pdf  used on input line 55.
+Package pdftex.def Info: Images/3_Iout_0_04-eps-converted-to.pdf  used on input line 53.
 (pdftex.def)             Requested size: 263.78506pt x 165.76016pt.
 Package epstopdf Info: Source file: <Images/3_Iout_0_08.eps>
 (epstopdf)                    date: 2023-04-16 14:28:28
@@ -1395,18 +1393,18 @@ Package epstopdf Info: Source file: <Images/3_Iout_0_08.eps>
 (epstopdf)                    date: 2023-04-16 14:30:03
 (epstopdf)                    size: 125976 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Iout_0_08-eps-converted-to.pdf Images/3_Iout_0_08.eps>
-(epstopdf)             \includegraphics on input line 61.
+(epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Iout_0_08-eps-converted-to.pdf, id=75, 554.07pt x 351.3125pt>
+<Images/3_Iout_0_08-eps-converted-to.pdf, id=76, 554.07pt x 351.3125pt>
 File: Images/3_Iout_0_08-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Iout_0_08-eps-converted-to.pdf>
-Package pdftex.def Info: Images/3_Iout_0_08-eps-converted-to.pdf  used on input line 61.
+Package pdftex.def Info: Images/3_Iout_0_08-eps-converted-to.pdf  used on input line 59.
 (pdftex.def)             Requested size: 263.78506pt x 167.25577pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \end{figure}
+l.65 \end{figure}
                   [1
 
  <./Images/3_phase.png (PNG copy)> <./Images/3_Vout_0_04-eps-converted-to.pdf> <./Images/3_Vout_0_08-eps-converted-to.pdf>]
@@ -1417,12 +1415,12 @@ Package epstopdf Info: Source file: <Images/3_ThI_0_04.eps>
 (epstopdf)                    date: 2023-04-16 14:30:04
 (epstopdf)                    size: 57618 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3_ThI_0_04-eps-converted-to.pdf Images/3_ThI_0_04.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_ThI_0_04-eps-converted-to.pdf, id=95, 804.00375pt x 405.515pt>
+<Images/3_ThI_0_04-eps-converted-to.pdf, id=96, 804.00375pt x 405.515pt>
 File: Images/3_ThI_0_04-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_ThI_0_04-eps-converted-to.pdf>
-Package pdftex.def Info: Images/3_ThI_0_04-eps-converted-to.pdf  used on input line 82.
+Package pdftex.def Info: Images/3_ThI_0_04-eps-converted-to.pdf  used on input line 80.
 (pdftex.def)             Requested size: 237.40494pt x 119.73726pt.
 Package epstopdf Info: Source file: <Images/3_ThI_0_08.eps>
 (epstopdf)                    date: 2023-04-16 14:28:29
@@ -1431,12 +1429,12 @@ Package epstopdf Info: Source file: <Images/3_ThI_0_08.eps>
 (epstopdf)                    date: 2023-04-16 14:30:04
 (epstopdf)                    size: 57624 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3_ThI_0_08-eps-converted-to.pdf Images/3_ThI_0_08.eps>
-(epstopdf)             \includegraphics on input line 88.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_ThI_0_08-eps-converted-to.pdf, id=96, 804.00375pt x 405.515pt>
+<Images/3_ThI_0_08-eps-converted-to.pdf, id=97, 804.00375pt x 405.515pt>
 File: Images/3_ThI_0_08-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_ThI_0_08-eps-converted-to.pdf>
-Package pdftex.def Info: Images/3_ThI_0_08-eps-converted-to.pdf  used on input line 88.
+Package pdftex.def Info: Images/3_ThI_0_08-eps-converted-to.pdf  used on input line 86.
 (pdftex.def)             Requested size: 237.40494pt x 119.73726pt.
 ) [2 <./Images/3_Iout_0_04-eps-converted-to.pdf> <./Images/3_Iout_0_08-eps-converted-to.pdf> <./Images/3_ThI_0_04-eps-converted-to.pdf> <./Images/3_ThI_0_08-eps-converted-to.pdf>]
 \openout2 = `Chapters/chapter3.2.aux'.
@@ -1451,7 +1449,7 @@ Package epstopdf Info: Source file: <Images/3_Vout_67_04.eps>
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Vout_67_04-eps-converted-to.pdf Images/3_Vout_67_04.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Vout_67_04-eps-converted-to.pdf, id=124, 559.08875pt x 351.3125pt>
+<Images/3_Vout_67_04-eps-converted-to.pdf, id=125, 559.08875pt x 351.3125pt>
 File: Images/3_Vout_67_04-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Vout_67_04-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3_Vout_67_04-eps-converted-to.pdf  used on input line 9.
@@ -1465,7 +1463,7 @@ Package epstopdf Info: Source file: <Images/3_Vout_67_08.eps>
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Vout_67_08-eps-converted-to.pdf Images/3_Vout_67_08.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Vout_67_08-eps-converted-to.pdf, id=125, 559.08875pt x 351.3125pt>
+<Images/3_Vout_67_08-eps-converted-to.pdf, id=126, 559.08875pt x 351.3125pt>
 File: Images/3_Vout_67_08-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Vout_67_08-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3_Vout_67_08-eps-converted-to.pdf  used on input line 15.
@@ -1483,7 +1481,7 @@ Package epstopdf Info: Source file: <Images/3_Iout_67_04.eps>
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Iout_67_04-eps-converted-to.pdf Images/3_Iout_67_04.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Iout_67_04-eps-converted-to.pdf, id=126, 549.05125pt x 351.3125pt>
+<Images/3_Iout_67_04-eps-converted-to.pdf, id=127, 549.05125pt x 351.3125pt>
 File: Images/3_Iout_67_04-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Iout_67_04-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3_Iout_67_04-eps-converted-to.pdf  used on input line 33.
@@ -1497,7 +1495,7 @@ Package epstopdf Info: Source file: <Images/3_Iout_67_08.eps>
 (epstopdf)             Command: <repstopdf --outfile=Images/3_Iout_67_08-eps-converted-to.pdf Images/3_Iout_67_08.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_Iout_67_08-eps-converted-to.pdf, id=127, 549.05125pt x 351.3125pt>
+<Images/3_Iout_67_08-eps-converted-to.pdf, id=128, 549.05125pt x 351.3125pt>
 File: Images/3_Iout_67_08-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_Iout_67_08-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3_Iout_67_08-eps-converted-to.pdf  used on input line 39.
@@ -1519,7 +1517,7 @@ Package epstopdf Info: Source file: <Images/3_ThI_67_04.eps>
 (epstopdf)             Command: <repstopdf --outfile=Images/3_ThI_67_04-eps-converted-to.pdf Images/3_ThI_67_04.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_ThI_67_04-eps-converted-to.pdf, id=156, 798.985pt x 405.515pt>
+<Images/3_ThI_67_04-eps-converted-to.pdf, id=158, 798.985pt x 405.515pt>
 File: Images/3_ThI_67_04-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_ThI_67_04-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3_ThI_67_04-eps-converted-to.pdf  used on input line 55.
@@ -1533,7 +1531,7 @@ Package epstopdf Info: Source file: <Images/3_ThI_67_08.eps>
 (epstopdf)             Command: <repstopdf --outfile=Images/3_ThI_67_08-eps-converted-to.pdf Images/3_ThI_67_08.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-<Images/3_ThI_67_08-eps-converted-to.pdf, id=157, 798.985pt x 405.515pt>
+<Images/3_ThI_67_08-eps-converted-to.pdf, id=159, 798.985pt x 405.515pt>
 File: Images/3_ThI_67_08-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/3_ThI_67_08-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3_ThI_67_08-eps-converted-to.pdf  used on input line 61.
@@ -1548,18 +1546,18 @@ Package rerunfilecheck Info: File `"PowerElectronics - Lab_2_Review".out' has no
 (rerunfilecheck)             Checksum: 07C44A96FBF3E0497DE521A269E1AC90;1936.
  ) 
 Here is how much of TeX's memory you used:
- 31869 strings out of 476025
- 617564 string characters out of 5796533
+ 31868 strings out of 476025
+ 617555 string characters out of 5796533
  1858388 words of memory out of 5000000
- 51698 multiletter control sequences out of 15000+600000
+ 51697 multiletter control sequences out of 15000+600000
  523907 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,89p,1158b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1095.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1440.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1728.pfb>
-Output written on "PowerElectronics - Lab_2_Review.pdf" (6 pages, 1337475 bytes).
+Output written on "PowerElectronics - Lab_2_Review.pdf" (6 pages, 1337509 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
  155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
